@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
-import { details, html, featured } from "../styles/project-details.module.css"
+import { details, htmls, featured } from "../styles/project-details.module.css"
 import { graphql } from "gatsby"
 
 export default function ProjectDetails({ data }) {
@@ -17,7 +17,7 @@ export default function ProjectDetails({ data }) {
         <div className={featured}>
           <Img fluid={featuredImg.childImageSharp.fluid} />
         </div>
-        <div className={html} dangerouslySetInnerHTML={{ __html: html }} />
+        <div className={htmls} dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>
   )

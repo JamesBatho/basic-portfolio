@@ -5,8 +5,6 @@ export default function Navbar() {
   const data = useStaticQuery(graphql`
     query SiteInfo {
       site {
-        host
-        port
         siteMetadata {
           copyright
           description
