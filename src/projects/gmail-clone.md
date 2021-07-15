@@ -1,7 +1,7 @@
 ---
-title: Boob2
+title: Gmail Clone
 stack: React-Router, Redux, Firebase
-slug: boob-house
+slug: gmail-clone
 date: 2021-06-24T00:00:00+00:00
 thumb: ../images/thumbs/gmail-clone-thumb.png
 featuredImg: ../images/featured/gmail-clone-banner.png
