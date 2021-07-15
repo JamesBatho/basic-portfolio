@@ -9,7 +9,7 @@ export default function Home({ data }) {
     <Layout>
       <section className={header}>
         <div>
-          <h2>Design!!!! </h2>
+          <h2>Design </h2>
           <h3>Develop & Deploy</h3>
           <p> UX designer & web developer based in Fort Lauderdale </p>
           <Link to="/projects" className={btn}>
@@ -23,8 +23,8 @@ export default function Home({ data }) {
 }
 
 export const query = graphql`
-  query Gungeon {
-    file(relativePath: { eq: "gungeon.png" }) {
+  query HomeImage {
+    file(relativePath: { eq: "banner.jpg" }) {
       id
       childrenImageSharp {
         fluid {
