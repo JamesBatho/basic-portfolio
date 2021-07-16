@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  margin-top: 30px;
+}
+
+.about a {
+  font-weight: bold;
+}
+
+.about a:hover {
+  font-size: 20px;
+}
+
+.profile-image {
+  width: 200%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #404040;
+}
+
+.header {
+  font-size: 24px;
+}
+
+.about-me {
+  margin: 0;
+}

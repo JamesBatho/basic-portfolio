@@ -1,0 +1,14 @@
+.resume-image {
+  width: 70%;
+  height: auto;
+}
+
+.resume-body {
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  font-size: 20px;
+  font-weight: bold;
+}
