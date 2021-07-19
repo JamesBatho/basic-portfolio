@@ -19,10 +19,11 @@ export default function About({ data }) {
       </h4>
       <div className={about}>
         <p className={aboutMe}>
-          I am a Web Developer with a strong engineering background who has
-          recently graduated from Springboard in June. Currently I am working as
-          a freelancer on Upwork, developing a project with Code for Baltimore
-          and looking for a full time position.
+          I am a web developer with a focus on frontend development using React,
+          with a strong engineering background. Recently graduated from
+          Springboard in June, I am now working as a freelancer on Upwork,
+          developing a project with Code for Baltimore and looking for a full
+          time position.
           <br />
           <br />
           Over the course of the bootcamp and several years of coding experience
