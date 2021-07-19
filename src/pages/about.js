@@ -27,7 +27,7 @@ export default function About({ data }) {
           <br />
           <br />
           Over the course of the bootcamp and several years of coding experience
-          through coursework and projects I have become proficient in:
+          through coursework and projects, I have become proficient in:
           Javascript, Python, CSS, HTML, React, Node, Express, Jasmine, Jest.
           and other front and backend technologies.
           <br />
