@@ -1,18 +1,16 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { graphql } from "gatsby"
 import { resumeImage, resumeBody } from "../styles/resume.module.css"
 import resumePDF from "../../static/JamesBathoResume.pdf"
 
 export default function Resume({ data }) {
+  const image = getImage(data.file)
   return (
     <Layout>
       <div className={resumeBody}>
-        <Img
-          className={resumeImage}
-          fluid={data.file.childrenImageSharp[0].fluid}
-        />
+        <GatsbyImage image={image} className={resumeImage} />
       </div>
       <p>
         To download a PDF version of my resume please click
@@ -26,10 +24,8 @@ export const query = graphql`
   query ResumeImage {
     file(relativePath: { eq: "JamesBathoResume2.jpg" }) {
       id
-      childrenImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
+      childImageSharp {
+        gatsbyImageData
       }
     }
   }

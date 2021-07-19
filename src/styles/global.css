@@ -69,3 +69,16 @@ footer p {
   color: #bbb;
   margin: 40px auto;
 }
+
+.navbar__right {
+  display: flex;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
