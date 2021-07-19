@@ -43,7 +43,7 @@ export default function About({ data }) {
           <br />
           <br />
           If you're looking for someone with these skills and a strong
-          motivation to succeed please don't hesitate to get it touch.
+          motivation to succeed please don't hesitate to get in touch.
           <br />
           <br />
           You can contact me at: j.batho325@gmail.com My resume can be found
