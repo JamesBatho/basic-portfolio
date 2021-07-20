@@ -8,7 +8,7 @@ export default function ProjectDetails({ data }) {
   console.log(data)
   const { html } = data.markdownRemark
 
-  const { title, stack, test } = data.markdownRemark.frontmatter
+  const { title, stack, test, link } = data.markdownRemark.frontmatter
 
   return (
     <Layout>
@@ -16,10 +16,12 @@ export default function ProjectDetails({ data }) {
         <h2> {title} </h2>
         <h3> {stack} </h3>
         <div className={featured}>
-          <GatsbyImage
-            alt="project banner"
-            image={test.childImageSharp.gatsbyImageData}
-          />
+          <a href={link}>
+            <GatsbyImage
+              alt="project banner"
+              image={test.childImageSharp.gatsbyImageData}
+            />
+          </a>
         </div>
         <div className={htmls} dangerouslySetInnerHTML={{ __html: html }} />
       </div>
@@ -35,6 +37,7 @@ export const query = graphql`
       frontmatter {
         title
         stack
+        link
         test {
           childImageSharp {
             gatsbyImageData
