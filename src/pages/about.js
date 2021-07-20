@@ -22,7 +22,7 @@ export default function About({ data }) {
           I am a web developer with a focus on frontend development using React,
           with a strong engineering background. Recently graduated from
           Springboard in June, I am now working as a freelancer on Upwork,
-          developing a project with Code for Baltimore and looking for a full
+          developing a project with Code for Baltimore, and looking for a full
           time position.
           <br />
           <br />
